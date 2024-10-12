@@ -4,3 +4,6 @@ sentence = "Hello world"
 
 x=" ".join(word.capitalize()for word in sentence.split()[::-1])
 print(x)
+# for word in sentence.split():
+#     x=' '.join(word[::-1])
+#     print(x)

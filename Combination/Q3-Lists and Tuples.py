@@ -8,12 +8,12 @@ threshold = 80
 ["Alice", "Charlie", "David"]
 
 def student_in_threshold(students_scores,threshold):
-    # return[name for name,score in students_scores if score>threshold] #listcomparesions
-    results=[]
+    # return[score for name,score in students_scores if score>threshold]#listcomparesions
+    result=[]
     for name,score in students_scores:
-        if score > threshold:
-            results.append(name)
-    return results
+        if score>threshold:
+            result.append(score)
+    return result
     
 students_scores = [("Alice", 85), ("Bob", 78), ("Charlie", 92), ("David", 88)]
 threshold = 80

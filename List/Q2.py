@@ -12,4 +12,4 @@ num=[]
 for x in lists:
     if x not in num:
         num.append(x)
-print(num)
+print(sorted(num))

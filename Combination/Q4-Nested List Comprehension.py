@@ -8,9 +8,13 @@ list_of_lists = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 
 def flatten_and_filter_evens(list_of_lists):
-    return [num for sub_list in list_of_lists for num in sub_list if num%2==0]
-
-
+    # return [num for sub_list in list_of_lists for num in sub_list if num%2==0]
+    # result=[]
+    # for sublist in list_of_lists:
+    #     for list in sublist:
+    #         if list%2==0:
+    #             result.append(list)
+    # return result
 list_of_lists = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 x=flatten_and_filter_evens(list_of_lists)

@@ -1,10 +1,11 @@
 def product_except_self(input_tuple):
-    result = []
-    total_product = 1
+    result=[]
+    total=1
     for num in input_tuple:
-        total_product *= num
+        total*=num
     for num in input_tuple:
-        result.append(total_product // num)
+        x=total//num
+        result.append(x)
     return tuple(result)
 
 # Example usage
